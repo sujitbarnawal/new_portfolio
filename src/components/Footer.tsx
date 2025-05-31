@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold text-primary-600 dark:text-primary-400 mb-4">
-              Sujit<span className="text-accent-500">Dev</span>
+              Sujit<span className="text-accent-500">Barnawal</span>
             </h3>
             <p className="text-dark-600 dark:text-gray-300 mb-4 max-w-md">
               A passionate MERN stack developer specializing in frontend development and creating beautiful, functional websites.
