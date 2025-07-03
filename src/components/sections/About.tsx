@@ -1,6 +1,7 @@
 import React from 'react';
 import { GraduationCap, Code } from 'lucide-react';
 import { skills } from '../../data/skills';
+import mernImage from '../../assets/mern-stack.png'
 
 const About: React.FC = () => {
   // Group skills by category
@@ -26,9 +27,9 @@ const About: React.FC = () => {
           <div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src={mernImage}
                 alt="Sujit Barnawal Working" 
-                className="rounded-lg shadow-lg w-full object-cover h-[450px]"
+                className="rounded-lg shadow-lg w-full object-cover max-h-[450px]"
               />
               <div className="absolute -bottom-6 -right-6 bg-white dark:bg-dark-700 p-4 rounded-lg shadow-lg">
                 <div className="grid grid-cols-2 gap-4">
