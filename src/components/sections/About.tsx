@@ -31,7 +31,7 @@ const About: React.FC = () => {
                 alt="Sujit Barnawal Working" 
                 className="rounded-lg shadow-lg w-full object-cover max-h-[450px]"
               />
-              <div className="absolute -bottom-6 -right-6 bg-white dark:bg-dark-700 p-4 rounded-lg shadow-lg">
+              <div className="absolute -bottom-6 -right-3 bg-white dark:bg-dark-700 p-4 rounded-lg shadow-lg">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
                     <div className="text-xl font-bold text-primary-600 dark:text-primary-400">5+</div>
